@@ -78,3 +78,7 @@
 	url = https://github.com/kiegroup/droolsjbpm-build-bootstrap
 	branch = master
 	ignore = all
+[submodule "drools"]
+	path = drools
+	url = git@github.com:kiegroup/drools.git
+	branch = master
