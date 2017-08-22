@@ -13,24 +13,97 @@
   
   <url>http://github.com/kiegroup</url>
   
-
   <modules>
-    <module>errai</module>
-    <module>uberfire</module>
-    <!-- <module>appformer</module> -->
-    <module>kie-uberfire-extensions</module>
-    <module>dashbuilder</module>
-    <module>guvnor</module> <!-- git checkout afeabff5dbecb96238f9a18e949937f4d4989645 -->
-    <module>droolsjbpm-integration</module> <!-- git checkout 492435cfdd7beb4f340c71ae472cec54e6ce1438 -->
-    <module>droolsjbpm-knowledge</module>
-    <module>drools</module>
-    <module>kie-wb-common</module>
-    <module>jbpm-form-modeler</module>
-    <module>drools-wb</module>
-    <module>jbpm-designer</module>
-    <module>jbpm-wb</module>
-    <module>optaplanner-wb</module>
-    <module>kie-wb-distributions</module> <!-- git checkout cbea9f702f84d8d2f806f00ce4fd2e103fce849b -->
   </modules>
+
+  <profiles>
+    <profile>
+      <id>all</id>
+      <modules>
+        <module>errai</module>
+        <module>uberfire</module>
+        <module>kie-uberfire-extensions</module>
+        <module>dashbuilder</module>
+        <module>guvnor</module>
+        <module>droolsjbpm-integration</module>
+        <module>droolsjbpm-knowledge</module>
+        <module>drools</module>
+        <module>kie-wb-common</module>
+        <module>jbpm-form-modeler</module>
+        <module>drools-wb</module>
+        <module>jbpm-designer</module>
+        <module>jbpm-wb</module>
+        <module>optaplanner-wb</module>
+        <module>kie-wb-distributions</module>
+      </modules>
+    </profile>
+    <profile>
+      <id>non-kiegroup</id>
+      <modules>
+        <module>errai</module>
+        <module>uberfire</module>
+        <module>dashbuilder</module>
+      </modules>
+    </profile>
+    <profile>
+      <id>kiegroup</id>
+      <modules>
+        <module>kie-uberfire-extensions</module>
+        <module>guvnor</module>
+        <module>droolsjbpm-integration</module>
+        <module>droolsjbpm-knowledge</module>
+        <module>drools</module>
+        <module>kie-wb-common</module>
+        <module>jbpm-form-modeler</module>
+        <module>drools-wb</module>
+        <module>jbpm-designer</module>
+        <module>jbpm-wb</module>
+        <module>optaplanner-wb</module>
+        <module>kie-wb-distributions</module>
+      </modules>
+    </profile>
+    <profile>
+      <id>errai</id>
+      <modules>
+        <module>errai</module>
+      </modules>
+    </profile>
+    <profile>
+      <id>uberfire</id>
+      <modules>
+        <module>uberfire</module>
+      </modules>
+    </profile>
+    <profile>
+      <id>kie-wb-common</id>
+      <modules>
+        <module>kie-wb-common</module>
+      </modules>
+    </profile>
+    <profile>
+      <id>dashbuilder</id>
+      <modules>
+        <module>dashbuilder</module>
+      </modules>
+    </profile>
+    <profile>
+      <id>guvnor</id>
+      <modules>
+        <module>guvnor</module>
+      </modules>
+    </profile>
+    <profile>
+      <id>droolsjbpm-build-bootstrap</id>
+      <modules>
+        <module>droolsjbpm-build-bootstrap</module>
+      </modules>
+    </profile>
+    <profile>
+      <id>drools</id>
+      <modules>
+        <module>drools</module>
+      </modules>
+    </profile>
+  </profiles>
 
 </project>
