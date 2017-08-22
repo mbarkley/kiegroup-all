@@ -82,3 +82,4 @@
 	path = drools
 	url = git@github.com:kiegroup/drools.git
 	branch = master
+	ignore = all
