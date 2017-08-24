@@ -81,6 +81,12 @@
       </modules>
     </profile>
     <profile>
+      <id>drools-wb</id>
+      <modules>
+        <module>drools-wb</module>
+      </modules>
+    </profile>
+    <profile>
       <id>dashbuilder</id>
       <modules>
         <module>dashbuilder</module>
