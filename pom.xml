@@ -81,6 +81,12 @@
       </modules>
     </profile>
     <profile>
+      <id>kie-wb-distributions</id>
+      <modules>
+        <module>kie-wb-distributions</module>
+      </modules>
+    </profile>
+    <profile>
       <id>drools-wb</id>
       <modules>
         <module>drools-wb</module>
