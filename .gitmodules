@@ -88,3 +88,8 @@
 	url = git@github.com:kiegroup/jbpm.git
 	branch = master
   ignore = all
+[submodule "droolsjbpm-tools"]
+	path = droolsjbpm-tools
+	url = git@github.com:kiegroup/droolsjbpm-tools.git
+	branch = master
+  ignore = all
