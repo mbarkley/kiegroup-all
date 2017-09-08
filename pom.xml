@@ -25,6 +25,7 @@
         <module>kie-uberfire-extensions</module>
         <module>dashbuilder</module>
         <module>guvnor</module>
+        <module>optaplanner</module>
         <module>droolsjbpm-build-bootstrap</module>
         <module>droolsjbpm-integration</module>
         <module>droolsjbpm-knowledge</module>
@@ -53,6 +54,7 @@
       <modules>
         <module>kie-uberfire-extensions</module>
         <module>guvnor</module>
+        <module>optaplanner</module>
         <module>droolsjbpm-build-bootstrap</module>
         <module>droolsjbpm-integration</module>
         <module>droolsjbpm-knowledge</module>

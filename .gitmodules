@@ -93,3 +93,8 @@
 	url = git@github.com:kiegroup/droolsjbpm-tools.git
 	branch = master
   ignore = all
+[submodule "optaplanner"]
+	path = optaplanner
+	url = git@github.com:kiegroup/optaplanner.git
+	branch = master
+  ignore = all
