@@ -98,3 +98,8 @@
 	url = git@github.com:kiegroup/optaplanner.git
 	branch = master
   ignore = all
+[submodule "kie-soup"]
+	path = kie-soup
+	url = git@github.com:kiegroup/kie-soup.git
+	branch = master
+  ignore = all

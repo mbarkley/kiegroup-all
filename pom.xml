@@ -20,6 +20,7 @@
     <profile>
       <id>all</id>
       <modules>
+        <module>kie-soup</module>
         <module>errai</module>
         <module>uberfire</module>
         <module>kie-uberfire-extensions</module>
@@ -52,6 +53,7 @@
     <profile>
       <id>kiegroup</id>
       <modules>
+        <module>kie-soup</module>
         <module>kie-uberfire-extensions</module>
         <module>guvnor</module>
         <module>optaplanner</module>
