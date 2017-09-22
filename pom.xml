@@ -20,6 +20,7 @@
     <profile>
       <id>all</id>
       <modules>
+        <module>droolsjbpm-build-bootstrap</module>
         <module>kie-soup</module>
         <module>errai</module>
         <module>uberfire</module>
@@ -27,7 +28,6 @@
         <module>dashbuilder</module>
         <module>guvnor</module>
         <module>optaplanner</module>
-        <module>droolsjbpm-build-bootstrap</module>
         <module>droolsjbpm-integration</module>
         <module>droolsjbpm-knowledge</module>
         <module>drools</module>
@@ -53,11 +53,11 @@
     <profile>
       <id>kiegroup</id>
       <modules>
+        <module>droolsjbpm-build-bootstrap</module>
         <module>kie-soup</module>
         <module>kie-uberfire-extensions</module>
         <module>guvnor</module>
         <module>optaplanner</module>
-        <module>droolsjbpm-build-bootstrap</module>
         <module>droolsjbpm-integration</module>
         <module>droolsjbpm-knowledge</module>
         <module>drools</module>
