@@ -43,6 +43,30 @@
       </modules>
     </profile>
     <profile>
+      <id>not-errai</id>
+      <modules>
+        <module>droolsjbpm-build-bootstrap</module>
+        <module>kie-soup</module>
+        <module>uberfire</module>
+        <module>kie-uberfire-extensions</module>
+        <module>dashbuilder</module>
+        <module>guvnor</module>
+        <module>optaplanner</module>
+        <module>droolsjbpm-integration</module>
+        <module>droolsjbpm-knowledge</module>
+        <module>drools</module>
+        <module>kie-wb-common</module>
+        <module>jbpm-form-modeler</module>
+        <module>drools-wb</module>
+        <module>droolsjbpm-tools</module>
+        <module>jbpm</module>
+        <module>jbpm-designer</module>
+        <module>jbpm-wb</module>
+        <module>optaplanner-wb</module>
+        <module>kie-wb-distributions</module>
+      </modules>
+    </profile>
+    <profile>
       <id>non-kiegroup</id>
       <modules>
         <module>errai</module>
