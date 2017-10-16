@@ -115,6 +115,12 @@
       </modules>
     </profile>
     <profile>
+      <id>jbpm-designer</id>
+      <modules>
+        <module>jbpm-designer</module>
+      </modules>
+    </profile>
+    <profile>
       <id>kie-wb-distributions</id>
       <modules>
         <module>kie-wb-distributions</module>
@@ -130,6 +136,12 @@
       <id>dashbuilder</id>
       <modules>
         <module>dashbuilder</module>
+      </modules>
+    </profile>
+    <profile>
+      <id>kie-soup</id>
+      <modules>
+        <module>kie-soup</module>
       </modules>
     </profile>
     <profile>

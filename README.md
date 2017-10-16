@@ -45,10 +45,10 @@ To update all repos to `$BRANCH`:
 Choosing what to build
 ---
 
-`mvn clean install -pl "uberfire"` will build only uberfire
+`mvn clean install -Pall -pl "uberfire"` will build only uberfire
 
-`mvn clean install -pl "\!uberfire"` will build **everything except uberfire**
+`mvn clean install -Pall -pl "\!uberfire"` will build **everything except uberfire**
 
-`mvn clean install -pl :kie-wb-webapp -am` will build the KIE workbench **and all it's dependencies**
+`mvn clean install -Pall -pl :kie-wb-webapp -am` will build the KIE workbench **and all it's dependencies**
 
-`mvn clean install -pl :uberfire-api -amd` will build the uberfire-api **and everything depending on it**
+`mvn clean install -Pall -pl :uberfire-api -amd` will build the uberfire-api **and everything depending on it**
