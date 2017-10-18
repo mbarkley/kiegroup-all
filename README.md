@@ -25,7 +25,7 @@ Add your forks
 
 To add all forks run the following command (replacing `$USERNAME` with your github handle):
 
-    `git submodule foreach 'git remote add origin git@github.com:$USERNAME/$name.git && echo Added origin for $name || echo Ignoring $name'`
+    git submodule foreach 'git remote add $USERNAME git@github.com:$USERNAME/$name.git && echo Added origin for $name || echo Ignoring $name'
 
 Switching branches
 ---
@@ -34,21 +34,55 @@ For some branch, `$BRANCH`:
 
     git submodule foreach 'git checkout $BRANCH || echo Ignoring $name'
 
-Updating all repos to a branch
+Rebase all repos
 ---
 
-To update all repos to `$BRANCH`:
+For some remote repository, `$REMOTE`, and branch, `$BRANCH`:
 
-    git submodule foreach 
+    git submodule foreach 'git fetch $REMOTE && git rebase $REMOTE/$BRANCH'
 
 
 Choosing what to build
 ---
 
-`mvn clean install -Pall -pl "uberfire"` will build only uberfire
+1. Building everything:
 
-`mvn clean install -Pall -pl "\!uberfire"` will build **everything except uberfire**
+    ```
+    mvn clean install -Pall
+    ```
 
-`mvn clean install -Pall -pl :kie-wb-webapp -am` will build the KIE workbench **and all it's dependencies**
+1. Build everything except Errai:
 
-`mvn clean install -Pall -pl :uberfire-api -amd` will build the uberfire-api **and everything depending on it**
+    ```
+    mvn clean install -Pnot-errai
+    ```
+
+1. Build everything in the kiegroup org:
+
+    ```
+    mvn clean install -Pkiegroup
+    ```
+
+1. Build kie-wb-common:
+
+    ```
+    mvn clean install -Pkie-wb-common
+    ```
+
+1. Build kie-wb-common and uberfire:
+
+    ```
+    mvn clean install -Pkie-wb-common,uberfire
+    ```
+
+1. Build kie-drools-wb-webapp and all dependencies:
+
+    ```
+    mvn clean install -Pall -pl :kie-drools-wb-webapp -am
+    ```
+
+1. Build uberfire-commons, and all modules that depend on it:
+
+    ```
+    mvn clean install -Pall -pl :uberfire-commons -amd
+    ```
