@@ -151,6 +151,30 @@
       </modules>
     </profile>
     <profile>
+      <id>appformer</id>
+      <modules>
+        <module>appformer</module>
+      </modules>
+    </profile>
+    <profile>
+      <id>jbpm-form-modeler</id>
+      <modules>
+        <module>jbpm-form-modeler</module>
+      </modules>
+    </profile>
+    <profile>
+      <id>jbpm-wb</id>
+      <modules>
+        <module>jbpm-wb</module>
+      </modules>
+    </profile>
+    <profile>
+      <id>optaplanner-wb</id>
+      <modules>
+        <module>optaplanner-wb</module>
+      </modules>
+    </profile>
+    <profile>
       <id>droolsjbpm-build-bootstrap</id>
       <modules>
         <module>droolsjbpm-build-bootstrap</module>
