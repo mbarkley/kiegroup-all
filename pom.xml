@@ -32,7 +32,6 @@
         <module>droolsjbpm-knowledge</module>
         <module>drools</module>
         <module>kie-wb-common</module>
-        <module>jbpm-form-modeler</module>
         <module>drools-wb</module>
         <module>droolsjbpm-tools</module>
         <module>jbpm</module>
@@ -56,7 +55,6 @@
         <module>droolsjbpm-knowledge</module>
         <module>drools</module>
         <module>kie-wb-common</module>
-        <module>jbpm-form-modeler</module>
         <module>drools-wb</module>
         <module>droolsjbpm-tools</module>
         <module>jbpm</module>
@@ -86,7 +84,6 @@
         <module>droolsjbpm-knowledge</module>
         <module>drools</module>
         <module>kie-wb-common</module>
-        <module>jbpm-form-modeler</module>
         <module>drools-wb</module>
         <module>droolsjbpm-tools</module>
         <module>jbpm</module>
@@ -154,12 +151,6 @@
       <id>appformer</id>
       <modules>
         <module>appformer</module>
-      </modules>
-    </profile>
-    <profile>
-      <id>jbpm-form-modeler</id>
-      <modules>
-        <module>jbpm-form-modeler</module>
       </modules>
     </profile>
     <profile>
