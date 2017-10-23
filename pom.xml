@@ -39,6 +39,7 @@
         <module>jbpm-wb</module>
         <module>optaplanner-wb</module>
         <module>kie-wb-distributions</module>
+        <module>kie-wb-playground</module>
       </modules>
     </profile>
     <profile>
@@ -62,6 +63,7 @@
         <module>jbpm-wb</module>
         <module>optaplanner-wb</module>
         <module>kie-wb-distributions</module>
+        <module>kie-wb-playground</module>
       </modules>
     </profile>
     <profile>
@@ -91,6 +93,7 @@
         <module>jbpm-wb</module>
         <module>optaplanner-wb</module>
         <module>kie-wb-distributions</module>
+        <module>kie-wb-playground</module>
       </modules>
     </profile>
     <profile>
