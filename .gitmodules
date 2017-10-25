@@ -103,6 +103,3 @@
 	url = git@github.com:kiegroup/kie-soup.git
 	branch = master
   ignore = all
-[submodule "kie-wb-playground"]
-	path = kie-wb-playground
-	url = git@github.com:kiegroup/kie-wb-playground
