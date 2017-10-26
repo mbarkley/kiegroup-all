@@ -48,11 +48,6 @@
 	url = https://github.com/kiegroup/guvnor
 	branch = master
 	ignore = all
-[submodule "appformer"]
-	path = appformer
-	url = https://github.com/kiegroup/appformer
-	branch = master
-	ignore = all
 [submodule "jbpm-wb"]
 	path = jbpm-wb
 	url = https://github.com/kiegroup/jbpm-wb
