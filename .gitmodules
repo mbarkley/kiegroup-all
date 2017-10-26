@@ -18,11 +18,6 @@
 	url = https://github.com/kiegroup/kie-wb-common
 	branch = master
 	ignore = all
-[submodule "jbpm-form-modeler"]
-	path = jbpm-form-modeler
-	url = https://github.com/kiegroup/jbpm-form-modeler
-	branch = master
-	ignore = all
 [submodule "drools-wb"]
 	path = drools-wb
 	url = https://github.com/kiegroup/drools-wb
