@@ -25,7 +25,6 @@
         <module>errai</module>
         <module>uberfire</module>
         <module>kie-uberfire-extensions</module>
-        <module>dashbuilder</module>
         <module>optaplanner</module>
         <module>droolsjbpm-integration</module>
         <module>droolsjbpm-knowledge</module>
@@ -47,7 +46,6 @@
         <module>kie-soup</module>
         <module>uberfire</module>
         <module>kie-uberfire-extensions</module>
-        <module>dashbuilder</module>
         <module>optaplanner</module>
         <module>droolsjbpm-integration</module>
         <module>droolsjbpm-knowledge</module>
@@ -67,7 +65,6 @@
       <modules>
         <module>errai</module>
         <module>uberfire</module>
-        <module>dashbuilder</module>
       </modules>
     </profile>
     <profile>
@@ -124,12 +121,6 @@
       <id>drools-wb</id>
       <modules>
         <module>drools-wb</module>
-      </modules>
-    </profile>
-    <profile>
-      <id>dashbuilder</id>
-      <modules>
-        <module>dashbuilder</module>
       </modules>
     </profile>
     <profile>
