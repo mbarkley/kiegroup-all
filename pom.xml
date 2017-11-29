@@ -124,12 +124,6 @@
       </modules>
     </profile>
     <profile>
-      <id>appformer</id>
-      <modules>
-        <module>appformer</module>
-      </modules>
-    </profile>
-    <profile>
       <id>jbpm-wb</id>
       <modules>
         <module>jbpm-wb</module>
