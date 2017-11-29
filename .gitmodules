@@ -88,3 +88,8 @@
 	url = git@github.com:kiegroup/kie-soup.git
 	branch = master
   ignore = all
+[submodule "appformer"]
+	path = appformer
+	url = git@github.com:kiegroup/appformer.git
+	branch = master
+  ignore = all

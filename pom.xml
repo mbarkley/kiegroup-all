@@ -23,7 +23,7 @@
         <module>droolsjbpm-build-bootstrap</module>
         <module>kie-soup</module>
         <module>errai</module>
-        <module>uberfire</module>
+        <module>appformer</module>
         <module>kie-uberfire-extensions</module>
         <module>optaplanner</module>
         <module>droolsjbpm-integration</module>
@@ -44,7 +44,7 @@
       <modules>
         <module>droolsjbpm-build-bootstrap</module>
         <module>kie-soup</module>
-        <module>uberfire</module>
+        <module>appformer</module>
         <module>kie-uberfire-extensions</module>
         <module>optaplanner</module>
         <module>droolsjbpm-integration</module>
@@ -61,17 +61,11 @@
       </modules>
     </profile>
     <profile>
-      <id>non-kiegroup</id>
-      <modules>
-        <module>errai</module>
-        <module>uberfire</module>
-      </modules>
-    </profile>
-    <profile>
       <id>kiegroup</id>
       <modules>
         <module>droolsjbpm-build-bootstrap</module>
         <module>kie-soup</module>
+        <module>appformer</module>
         <module>kie-uberfire-extensions</module>
         <module>optaplanner</module>
         <module>droolsjbpm-integration</module>
@@ -94,9 +88,9 @@
       </modules>
     </profile>
     <profile>
-      <id>uberfire</id>
+      <id>appformer</id>
       <modules>
-        <module>uberfire</module>
+        <module>appformer</module>
       </modules>
     </profile>
     <profile>
