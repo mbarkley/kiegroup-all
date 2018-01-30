@@ -194,3 +194,5 @@ uberfire/*
 uberfire
 appformer/**
 appformer
+drlx-parser
+drlx-parser/**

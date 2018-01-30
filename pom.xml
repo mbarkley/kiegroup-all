@@ -37,6 +37,7 @@
         <module>jbpm-wb</module>
         <module>optaplanner-wb</module>
         <module>kie-wb-distributions</module>
+        <module>drlx-parser</module>
       </modules>
     </profile>
     <profile>
@@ -58,6 +59,7 @@
         <module>jbpm-wb</module>
         <module>optaplanner-wb</module>
         <module>kie-wb-distributions</module>
+        <module>drlx-parser</module>
       </modules>
     </profile>
     <profile>
@@ -79,6 +81,7 @@
         <module>jbpm-wb</module>
         <module>optaplanner-wb</module>
         <module>kie-wb-distributions</module>
+        <module>drlx-parser</module>
       </modules>
     </profile>
     <profile>
@@ -163,6 +166,12 @@
       <id>droolsjbpm-knowledge</id>
       <modules>
         <module>droolsjbpm-knowledge</module>
+      </modules>
+    </profile>
+    <profile>
+      <id>drlx-parser</id>
+      <modules>
+        <module>drlx-parser</module>
       </modules>
     </profile>
   </profiles>

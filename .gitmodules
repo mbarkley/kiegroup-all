@@ -88,3 +88,8 @@
 	url = git@github.com:kiegroup/appformer.git
   branch = master
   ignore = all
+[submodule "drlx-parser"]
+	path = drlx-parser
+	url = git@github.com:kiegroup/drlx-parser.git
+  branch = master
+  ignore = all
