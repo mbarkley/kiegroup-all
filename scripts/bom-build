@@ -1,0 +1,10 @@
+#!/usr/bin/bash
+
+cd kie-soup \
+  && mvn clean install -pl :kie-soup-bom \
+  && cd ../appformer \
+  && mvn clean install -pl :uberfire-bom \
+  && cd ../droolsjbpm-build-bootstrap \
+  && mvn clean install \
+  && cd ..
+
